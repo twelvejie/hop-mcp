@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "apache-hop": {
+      "command": "/path/to/hop-mcp/.venv/bin/python",
+      "args": ["/path/to/hop-mcp/server.py"],
+      "env": {
+        "HOP_HOME": "/path/to/hop",
+        "HOP_CONFIG_FOLDER": "/Users/you/.local/share/hop",
+        "HOP_WORKSPACE": "/path/to/hop-mcp/pipelines",
+        "HOP_RUN_TIMEOUT": "1800"
+      }
+    }
+  }
+}
